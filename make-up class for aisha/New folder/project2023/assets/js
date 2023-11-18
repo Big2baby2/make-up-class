@@ -1,0 +1,51 @@
+
+ .hamburger {
+    visibility: hidden;
+ }
+ /*media query for navbar*/
+ @media (max-width:768px) {
+    .hamburger {
+       visibility: visibble;
+    }
+ 
+    .navbar {
+        display: none;
+
+    }
+ }
+    
+ .container-lookup {
+     display: flex;
+     justify-content: center;
+     margin: 10px;
+ }
+    
+ .small {
+     padding: 10px;
+     margin: 10px;
+     background-color: #efefef;
+     box-sizing: border-box;
+     border-radius: 5px;
+     align-items: center;
+     text-align: center;
+ }
+
+ /*media query rule on divs */
+ @media (max-width:768px) {
+    .container-lookup {
+     width: 100px;
+     display: block;
+     margin: 10px;
+     background-color: white;
+    }
+
+  .small {
+      width: 90px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: gray;
+
+  }
+
+
+ }
